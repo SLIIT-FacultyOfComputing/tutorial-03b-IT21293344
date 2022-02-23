@@ -1,9 +1,12 @@
 #include <iostream>
 using namespace std;
 
+/* function declaration */
 int volume(int height, int width, int length);
 
+// function main begins program execution 
 int main() {
+    /* variable definition */
     int box1Height, box1Width, box1Length;
     int box2Height, box2Width, box2Length;
     int totalVolume, totalSurface;
@@ -31,3 +34,9 @@ int main() {
 }
 
 // Implement the Volume() function here
+int volume(int height, int width, int length)
+{
+
+  return height * width * length;
+
+}
